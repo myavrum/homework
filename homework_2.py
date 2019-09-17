@@ -1,0 +1,5 @@
+student_numbers_in_class = input('Write number of students in the class ->')
+hourly_wage = input('Your hourly wage in AMD ->')
+hours_workweek = input('Your working hours per week ->')
+print('Hourly wage per student (AMD):', float(hourly_wage) / int(student_numbers_in_class))
+print('Annual salary per student (AMD):', float(hourly_wage) * float(hours_workweek) * 52 / int(student_numbers_in_class))
