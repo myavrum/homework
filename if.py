@@ -1,5 +1,19 @@
 #How to use if statement.
 
+PronType = str(input("Enter the type of Pronoun ->"))
+Case = str(input("Enter the Case of Pronoun ->"))
+
+if PronType == "Pers" and Case == "Gen":
+	print("The Pronoun is Possesive")
+	if PronType != "Pers" or Case == "Gen":
+		print("The Pronoun is Genitive")
+		if PronType == "Pers" or Case != "Gen":
+			print("The Pronoun is Personal")
+	print("Yes, the Pronoun is Possesive.")
+
+print("Its not Poss Pronoun!")
+
+
 weather = "cold"
 
 a = 5
@@ -17,11 +31,11 @@ if weather == "cold" and a > b and len_of_message > 3:
 print("Our cods ends")
 
 
-PronType = str(input("Enter the type of Pronoune ->"))
-Case = str(input("Enter the Case of Pronoune ->"))
+PronType = str(input("Enter the type of Pronoun ->"))
+Case = str(input("Enter the Case of Pronoun ->"))
 
 if PronType == "Pers" and Case == "Gen":
-	print("The Pronoune is Possesive")
+	print("The Pronoun is Possesive")
 
 a = 5
 b = 6
